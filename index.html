@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Cadastro Devs</title>
+</head>
+
+<body>
+    <div>
+        <h1 id="titulo"><strong>Cadastre-se, Dev!</strong></h1>
+        <p id="subtitulo">Preencha as informações abaixo com seus dados pessoais</p>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div class="infos1">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" required>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" required>
+                <label for="email" name email>E-mail:</label>
+                <input type="email" name="email" required>
+            </div>
+        </fieldset>
+    </form>
+
+    <div class="infos2">
+        <label>De qual lado da aplicação você desenvolve?</label>
+        <input type="radio" name="dev" id="front">Front-end
+        <input type="radio" name="dev" id="back">Back-end
+        <input type="radio" name="dev" id="full">Fullstack
+    </div>
+
+    <div class="infos2">
+        <label for="senioridade">Senioridade:</label>
+        <select name="senioridade" id="senioridade">
+            <option value="selecione" disabled selected>Selecione</option>
+            <option value="junior">Junior</option>
+            <option value="pleno">Pleno</option>
+            <option value="senior">Senior</option>
+        </select>
+    </div>
+
+    <fieldset class="grupo">
+        <p id="skills">Escolha as suas melhores skills:</p>
+        <div class="infos3">
+            <input type="checkbox" name="html" id="html">
+            <label for="html">HTML</label>
+            <input type="checkbox" name="CSS" id="CSS">
+            <label for="CSS">CSS</label>
+            <input type="checkbox" name="js" id="js">
+            <label for="js">JavaScript</label>
+            <input type="checkbox" name="react" id="react">
+            <label for="react">ReactJS</label>
+            <input type="checkbox" name="nodejs" id="nodejs">
+            <label for="nodejs">NodeJS</label>
+            <input type="checkbox" name="python" id="python">
+            <label for="python">Phyton</label>
+            <input type="checkbox" name="php" id="php">
+            <label for="php">PHP</label>
+
+        </div>
+    </fieldset>
+
+    <div class="infos4">
+        <label for="experiencia">Fale um pouco sobre a sua última experiencia:</label>
+        <textarea name="experiencia" id="experiencia" cols="66" rows="6"></textarea>
+    </div>
+
+    <button type="submit" id="botao" ><strong>Continuar</strong></button>
+</body>
+</html>
