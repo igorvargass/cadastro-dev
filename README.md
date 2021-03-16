@@ -5,4 +5,6 @@
 
 ### Repositório desenvolvido tendo como base os documentos disponibilizados pela [Rafaella Ballerini](https://github.com/rafaballerini) "Cadastro de Devs".
 
+![alt text](https://github.com/igorvargass/cadastro-dev/blob/master/images/img.png)
+
 ---
